@@ -1,0 +1,35 @@
+.navbar_container {
+  display: flex;
+  height: 5rem;
+  width: 100%;
+  background-color: rgb(14, 14, 14);
+  overflow-y: visible;
+  
+}
+
+.navbar_ul {
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  display: flex;
+}
+
+.navbar_link a {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 1.1rem;
+  margin: 0.2rem;
+  font-weight: 500;
+}
+
+.navbar_link a:hover {
+  color: rgba(255, 182, 45, 0.979);
+  transition: 0.5s;
+}
+
+.navbar_ul img {
+  height: 4rem;
+  align-items: center;
+  justify-content: center;
+}

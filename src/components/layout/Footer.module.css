@@ -1,0 +1,32 @@
+.footer_container {
+  background-color: rgb(15, 15, 15);
+  display: flex;
+  height: 17%;
+}
+
+.footer_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.footer_item {
+  display: flex;
+  cursor: pointer;
+  color: white;
+  font-size: 2.3rem;
+  overflow-y: hidden;
+}
+
+.footer_item:hover {
+  color: rgba(255, 182, 45, 0.979);
+}
+
+footer p {
+  position: absolute;
+  left: 48%;
+  bottom: 2rem;
+  text-align: center;
+  color: #af71ff;
+}
